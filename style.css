@@ -58,6 +58,10 @@ body {
     max-width: 50%;
 }
 
+.mid1 img {
+    max-width: 100%;
+}
+
 .mid2 {
     width: 50%;
     max-width: 50%;
@@ -98,21 +102,88 @@ body {
 
 .third1 p {
     width: 50%;
-    margin-left: 320px;
+    text-align: center;
+    margin: 0 auto;
     color: #252525;
     font-size: 18px;
 }
 
 .fourth-banner {
     display: flex;
+    gap: 40px;
+    padding: 30px;
+    margin-top: 50px;
 
+}
+
+.fourth {
+    max-width: 33%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
 }
 
 .fourth img {
-    width: 33%;
-    size: 50px;
+    max-width: 100%;
+}
+
+.fourth h1 {
+    color: #18191f;
+    font-weight: 700;
 }
 
 .fourth p {
-    width: 50%;
+    color: #18191f;
+}
+
+.fifth-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1239px;
+    height: 226px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.fifth-banner div h1 {
+    color: #18191f;
+    font-size: 48px;
+}
+
+.fifth-banner div p {
+    color: #18191f;
+    font-size: 16px;
+}
+
+.main1 {
+    padding-left: 130px;
+}
+
+.main3 {
+    padding-right: 70px;
+}
+
+.six-banner {
+    width: 1240px;
+    height: 206px;
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.food {
+    color: orange;
+}
+
+.dev h1 {
+    color: #5B5B5B;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dev p {
+    color: #ffffff;
+    font-size: 16px;
 }
